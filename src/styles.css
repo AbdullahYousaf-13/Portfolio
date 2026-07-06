@@ -43,7 +43,7 @@
 
 :root {
   --radius: 0.75rem;
-  --background: oklch(0.10 0.010 230);
+  --background: oklch(0.1 0.01 230);
   --foreground: oklch(0.96 0.005 250);
   --surface: oklch(0.13 0.014 230);
   --surface-2: oklch(0.16 0.016 230);
@@ -54,29 +54,34 @@
   --primary: oklch(0.72 0.14 195);
   --primary-foreground: oklch(0.08 0.015 230);
   --primary-glow: oklch(0.78 0.12 165);
-  --secondary: oklch(0.20 0.018 230);
+  --secondary: oklch(0.2 0.018 230);
   --secondary-foreground: oklch(0.96 0.005 250);
   --muted: oklch(0.18 0.014 230);
   --muted-foreground: oklch(0.68 0.015 250);
   --accent: oklch(0.22 0.026 220);
   --accent-foreground: oklch(0.98 0.005 250);
-  --steel: oklch(0.60 0.070 240);
+  --steel: oklch(0.6 0.07 240);
   --destructive: oklch(0.62 0.22 25);
   --destructive-foreground: oklch(0.98 0.005 250);
   --border: oklch(1 0 0 / 0.08);
   --border-strong: oklch(1 0 0 / 0.14);
-  --input: oklch(1 0 0 / 0.10);
+  --input: oklch(1 0 0 / 0.1);
   --ring: oklch(0.72 0.14 195);
 }
 
 .dark {
-  --background: oklch(0.10 0.010 230);
+  --background: oklch(0.1 0.01 230);
   --foreground: oklch(0.96 0.005 250);
 }
 
 @layer base {
-  * { border-color: var(--color-border); }
-  html { scroll-behavior: smooth; overflow-x: hidden; }
+  * {
+    border-color: var(--color-border);
+  }
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
   body {
     overflow-x: hidden;
     background-color: var(--color-background);
@@ -84,11 +89,14 @@
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
     background-image:
-      radial-gradient(1200px 600px at 15% -10%, oklch(0.72 0.14 195 / 0.10), transparent 60%),
+      radial-gradient(1200px 600px at 15% -10%, oklch(0.72 0.14 195 / 0.1), transparent 60%),
       radial-gradient(900px 500px at 100% 30%, oklch(0.72 0.11 165 / 0.055), transparent 60%);
     background-attachment: fixed;
   }
-  ::selection { background: oklch(0.72 0.14 195 / 0.35); color: oklch(0.98 0 0); }
+  ::selection {
+    background: oklch(0.72 0.14 195 / 0.35);
+    color: oklch(0.98 0 0);
+  }
 }
 
 @utility grid-bg {
@@ -109,6 +117,7 @@
   background-color: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius-xl);
-  box-shadow: 0 30px 80px -40px oklch(0 0 0 / 0.8), inset 0 1px 0 0 oklch(1 0 0 / 0.04);
+  box-shadow:
+    0 30px 80px -40px oklch(0 0 0 / 0.8),
+    inset 0 1px 0 0 oklch(1 0 0 / 0.04);
 }
-
