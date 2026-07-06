@@ -48,7 +48,7 @@ export function About() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-80px" }}
             transition={{ duration: 0.6, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
-            className="lg:col-span-5"
+            className="flex flex-col gap-4 lg:col-span-5"
           >
             <div className="panel p-7">
               <h3 className="font-mono text-[11px] uppercase tracking-[0.2em] text-primary">
@@ -67,7 +67,7 @@ export function About() {
                 ))}
               </dl>
             </div>
-            <div className="panel mt-4 p-7">
+            <div className="panel flex-1 p-7">
               <h3 className="font-mono text-[11px] uppercase tracking-[0.2em] text-primary">
                 // Learning & Notes
               </h3>
