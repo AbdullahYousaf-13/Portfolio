@@ -44,7 +44,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.22, ease: [0.22, 1, 0.36, 1] }}
-            className="mt-8 w-full max-w-[330px] break-words text-lg leading-relaxed text-muted-foreground sm:max-w-xl"
+            className="mt-8 w-full max-w-[330px] break-words text-lg leading-relaxed text-muted-foreground sm:max-w-2xl"
           >
             {profile.summary}
           </motion.p>

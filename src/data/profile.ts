@@ -15,9 +15,9 @@ export const profile = {
   resumeUrl: "/Mohammad_Abdullah.pdf",
   eyebrow: "Cybersecurity · Frontend · AI",
   summary:
-    "Computer Science student focused on cybersecurity, frontend product development, and practical AI. I build SOC-style dashboards, responsive React interfaces, and FastAPI/ML workflows that turn logs, detections, and technical data into clear products for analysts and teams.",
+    "Computer Science student focused on cybersecurity, frontend product development, and practical AI. My work combines SOC-style monitoring, vulnerability assessment, and detection workflows with responsive React interfaces and FastAPI-backed systems. Across internship work and personal builds, I turn alerts, telemetry, and technical data into products that are easier for analysts and teams to use.",
   longBio:
-    "My strongest lane is cybersecurity: alert triage, vulnerability assessment, network analysis, and detection workflows built around tools like Wazuh, Nmap, Burp Suite, Wireshark, and Autopsy. Alongside that, I build frontend-heavy products in React, JavaScript, CSS, and dashboard UI systems. AI is the third layer: practical ML and local LLM work used where it improves detection, automation, or analyst experience.",
+    "My strongest lane is cybersecurity: alert triage, vulnerability assessment, log analysis, and network investigation built around tools like Wazuh, Nmap, Burp Suite, Wireshark, and Autopsy. During my internship at Techaccess Pakistan, I worked on daily SIEM alert handling, network defence monitoring, and structured remediation reporting across client systems. Alongside that, I build frontend-heavy products in React, JavaScript, TypeScript, CSS, and dashboard UI systems, with a focus on interfaces that make dense technical workflows easier to understand and act on. AI is the third layer in my work: practical machine-learning and local LLM integrations used where they improve detection quality, automation, or analyst experience rather than being added as filler.",
   quickFacts: [
     { label: "Location", value: "Islamabad, PK" },
     { label: "Degree", value: "BS Computer Science" },
