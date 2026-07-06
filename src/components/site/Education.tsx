@@ -36,7 +36,7 @@ export function Education() {
             <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2">
               {credentials.map((c) => (
                 <li key={c.name} className="panel group relative overflow-hidden p-5 transition-transform hover:-translate-y-0.5">
-                  <div aria-hidden className="absolute inset-x-0 top-0 h-px opacity-60" style={{ background: "linear-gradient(90deg, transparent, oklch(0.58 0.20 20 / 0.9), transparent)" }} />
+                  <div aria-hidden className="absolute inset-x-0 top-0 h-px opacity-60" style={{ background: "linear-gradient(90deg, transparent, oklch(0.72 0.14 195 / 0.8), transparent)" }} />
                   <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-primary">{c.year}</div>
                   <div className="mt-2 font-display text-sm font-semibold text-foreground">{c.name}</div>
                   <div className="mt-0.5 text-xs text-muted-foreground">{c.issuer}</div>

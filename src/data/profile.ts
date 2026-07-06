@@ -1,28 +1,28 @@
-import cybersentinelCover from "@/assets/project-cybersentinel.jpg";
-import nimbuswatchCover from "@/assets/project-nimbuswatch.jpg";
-import passwordCrackerCover from "@/assets/project-password-cracker.jpg";
-import fitnessfreakCover from "@/assets/project-fitnessfreak.jpg";
-import chatbotCover from "@/assets/project-chatbot.jpg";
+import cybersentinelCover from "@/assets/project-cybersentinel-repo.png";
+import nimbuswatchCover from "@/assets/project-nimbuswatch-repo.png";
+import passwordCrackerCover from "@/assets/project-password-cracker-repo.png";
+import fitnessfreakCover from "@/assets/project-fitnessfreak-repo.png";
+import chatbotCover from "@/assets/project-chatbot-repo.png";
 
 export const profile = {
   name: "Mohammad Abdullah",
-  title: "Cybersecurity Analyst",
+  title: "Cybersecurity Analyst · Frontend Developer",
   location: "Islamabad, Pakistan",
   email: "abdullahyousaf132@gmail.com",
   phone: "+92 342 8785780",
   github: "https://github.com/AbdullahYousaf-13",
   linkedin: "https://linkedin.com/in/abdullahyousaf13",
   resumeUrl: "/Mohammad_Abdullah.pdf",
-  eyebrow: "SOC · IDS · AI-Assisted Defence",
+  eyebrow: "Cybersecurity · Frontend · AI",
   summary:
-    "Cybersecurity-focused Computer Science student building AI-assisted defence systems. Hands-on with SOC operations, Wazuh SIEM triage, vulnerability assessment, and hybrid ML intrusion detection.",
+    "Computer Science student focused on cybersecurity, frontend product development, and practical AI. I build SOC-style dashboards, responsive React interfaces, and FastAPI/ML workflows that turn logs, detections, and technical data into clear products for analysts and teams.",
   longBio:
-    "I work at the intersection of security operations and applied machine learning — designing detection systems that pair signature-based rigor with anomaly-aware intelligence. My internship at Techaccess Pakistan sharpened my SOC muscle: triaging live Wazuh alerts, running vulnerability assessments with Nmap and Burp Suite, and analysing telemetry with Wireshark and Autopsy. My final-year project, CyberSentinel, extends that discipline with a hybrid Random Forest + Isolation Forest IDS wired into a React dashboard.",
+    "My strongest lane is cybersecurity: alert triage, vulnerability assessment, network analysis, and detection workflows built around tools like Wazuh, Nmap, Burp Suite, Wireshark, and Autopsy. Alongside that, I build frontend-heavy products in React, JavaScript, CSS, and dashboard UI systems. AI is the third layer: practical ML and local LLM work used where it improves detection, automation, or analyst experience.",
   quickFacts: [
     { label: "Location", value: "Islamabad, PK" },
     { label: "Degree", value: "BS Computer Science" },
     { label: "CGPA", value: "3.4 / 4.0" },
-    { label: "Open to", value: "SOC / Security Engineer roles" },
+    { label: "Open to", value: "Cybersecurity Analyst / Frontend Developer roles" },
   ],
   learningRepos: [
     { name: "CEH-Practical-Guide", url: "https://github.com/AbdullahYousaf-13/CEH-Practical-Guide" },
@@ -33,24 +33,24 @@ export const profile = {
 
 export const skills = [
   {
-    category: "Cybersecurity & Tools",
+    category: "Cybersecurity",
     items: [
-      "Vulnerability Assessment", "Penetration Testing", "Anomaly Detection", "Threat Intelligence",
-      "Incident Response", "Log Analysis", "SIEM Monitoring", "SOC Operations", "IDS",
+      "Vulnerability Assessment", "Penetration Testing", "Threat Intelligence", "Incident Response",
+      "Log Analysis", "SIEM Monitoring", "SOC Operations", "IDS", "Network Forensics",
       "Kali Linux", "Ubuntu", "Nmap", "Wireshark", "Wazuh", "Burp Suite", "Autopsy", "SQLMap", "Metasploit",
     ],
   },
   {
-    category: "Web Development",
+    category: "Frontend Development",
     items: [
-      "React.js", "JavaScript", "CSS", "HTML", "Responsive Design", "Highcharts", "Ant Design",
-      "Figma", "Git", "GitHub", "Version Control", "Render", "Postman", "Docker",
+      "React.js", "JavaScript", "TypeScript", "CSS", "HTML", "Responsive Design", "Dashboard UI",
+      "Highcharts", "Ant Design", "Figma", "Git", "GitHub", "Render", "Postman",
     ],
   },
   {
-    category: "AI & ML",
+    category: "Applied AI",
     items: [
-      "Machine Learning", "NumPy", "Scikit-learn", "Isolation Forest", "Random Forest",
+      "Machine Learning", "Scikit-learn", "Isolation Forest", "Random Forest", "Local LLMs",
       "Data Preprocessing", "Model Training & Evaluation", "Feature Engineering",
     ],
   },
@@ -64,6 +64,7 @@ export const projects = [
     year: "2026",
     role: "Final Year Project · Award: 2nd Place, ICCOR Poster",
     cover: cybersentinelCover,
+    coverClass: "object-contain bg-[#06101b]",
     stack: ["Wazuh", "Random Forest", "Isolation Forest", "React.js", "FastAPI", "Python", "MongoDB", "Highcharts"],
     highlights: [
       "Engineered a hybrid AI-IDS achieving 94%+ detection accuracy with false positive rate as low as 7%.",
@@ -74,7 +75,7 @@ export const projects = [
     links: [
       { label: "Frontend", url: "https://github.com/AbdullahYousaf-13/CyberSentinel-Frontend" },
       { label: "Backend", url: "https://github.com/AbdullahYousaf-13/CyberSentinel-Backend" },
-      { label: "ML", url: "https://github.com/AbdullahYousaf-13/CyberSentinel-AI" },
+      { label: "ML", url: "https://github.com/AbdullahYousaf-13/CyberSentinel-Cloud-Model" },
     ],
   },
   {
@@ -82,8 +83,9 @@ export const projects = [
     name: "NimbusWatch",
     tagline: "Hybrid-cloud malicious-traffic detection",
     year: "2026",
-    role: "Solo · Cloud + MLOps",
+    role: "Independent Project · Cloud ML",
     cover: nimbuswatchCover,
+    coverClass: "object-contain bg-[#f6f1eb]",
     stack: ["Python", "FastAPI", "Vertex AI", "Cloud Run", "HistGradientBoosting", "Hugging Face", "CICIDS2017"],
     highlights: [
       "Trained a HistGradientBoostingClassifier on a curated CICIDS2017 subset with feature selection and probability-threshold tuning.",

@@ -54,7 +54,7 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
 }
 
 const description =
-  "Mohammad Abdullah — Cybersecurity Analyst. SOC operations, Wazuh SIEM triage, vulnerability assessment, and AI-assisted intrusion detection. Based in Islamabad, Pakistan.";
+  "Mohammad Abdullah — cybersecurity analyst and frontend developer building security dashboards, React products, and practical AI/ML workflows.";
 
 export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
   head: () => ({
@@ -70,9 +70,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "Mohammad Abdullah" },
       { name: "twitter:description", content: description },
-      { name: "description", content: "Cybernetic Showcase is a React portfolio website highlighting Mohammad Abdullah's cybersecurity expertise and technical projects." },
-      { property: "og:description", content: "Cybernetic Showcase is a React portfolio website highlighting Mohammad Abdullah's cybersecurity expertise and technical projects." },
-      { name: "twitter:description", content: "Cybernetic Showcase is a React portfolio website highlighting Mohammad Abdullah's cybersecurity expertise and technical projects." },
+      { name: "description", content: "Mohammad Abdullah's portfolio across cybersecurity, frontend development, and practical AI projects." },
+      { property: "og:description", content: "Mohammad Abdullah's portfolio across cybersecurity, frontend development, and practical AI projects." },
+      { name: "twitter:description", content: "Mohammad Abdullah's portfolio across cybersecurity, frontend development, and practical AI projects." },
       { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/1b69bdce-ff77-4885-8512-1deeb21ffab7/id-preview-1d1ea813--e17864d9-3005-4d53-8aa4-3959accd43ab.lovable.app-1783329392496.png" },
       { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/1b69bdce-ff77-4885-8512-1deeb21ffab7/id-preview-1d1ea813--e17864d9-3005-4d53-8aa4-3959accd43ab.lovable.app-1783329392496.png" },
     ],

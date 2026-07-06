@@ -24,14 +24,14 @@ export function Contact() {
   return (
     <section id="contact" className="relative py-24 md:py-32">
       <div className="mx-auto max-w-7xl px-5 md:px-8">
-        <SectionHeader number="// 06" eyebrow="Get in touch" title="Let's talk security, systems, or roles." description="Best reached by email. Also happy on LinkedIn — response within 24 hours on weekdays." />
+        <SectionHeader number="// 06" eyebrow="Get in touch" title="Let's talk security, frontend, or roles." description="Best reached by email. Also happy on LinkedIn — response within 24 hours on weekdays." />
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
           {items.map((it, i) => {
             const Icon = it.icon;
             const isCopied = copied === it.copy;
             return (
               <motion.div key={it.label} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-60px" }} transition={{ duration: 0.5, delay: i * 0.05, ease: [0.22, 1, 0.36, 1] }} className="panel group relative flex items-center gap-4 overflow-hidden p-6 transition-transform hover:-translate-y-0.5">
-                <div aria-hidden className="pointer-events-none absolute inset-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100" style={{ background: "radial-gradient(400px 120px at 0% 50%, oklch(0.58 0.20 20 / 0.14), transparent 70%)" }} />
+                <div aria-hidden className="pointer-events-none absolute inset-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100" style={{ background: "radial-gradient(400px 120px at 0% 50%, oklch(0.72 0.14 195 / 0.14), transparent 70%)" }} />
                 <span className="relative flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-lg border border-border bg-accent/60 text-primary">
                   <Icon className="h-5 w-5" />
                 </span>
@@ -53,9 +53,9 @@ export function Contact() {
 
         <div className="mt-10 flex flex-wrap items-center justify-between gap-4 border-t border-border pt-8">
           <p className="max-w-md text-sm text-muted-foreground">
-            Based in {profile.location}. Open to SOC Analyst and Security Engineer roles — full-time and internship.
+            Based in {profile.location}. Open to Cybersecurity Analyst and Frontend Developer roles — full-time and internship.
           </p>
-          <a href={profile.resumeUrl} download className="inline-flex items-center gap-2 rounded-full bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground shadow-[0_10px_40px_-10px_oklch(0.58_0.20_20_/_0.9)] transition-transform hover:-translate-y-0.5">
+          <a href={profile.resumeUrl} download className="inline-flex items-center gap-2 rounded-full bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground shadow-[0_10px_40px_-10px_oklch(0.72_0.14_195_/_0.55)] transition-transform hover:-translate-y-0.5">
             <Download className="h-4 w-4" /> Download Resume
           </a>
         </div>

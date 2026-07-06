@@ -9,13 +9,13 @@ export function Skills() {
   return (
     <section id="skills" className="relative py-24 md:py-32">
       <div className="mx-auto max-w-7xl px-5 md:px-8">
-        <SectionHeader number="// 02" eyebrow="Toolkit" title="What I build and defend with." description="Skills grouped the way I actually work — offensive tooling, product engineering, and applied ML for detection." />
+        <SectionHeader number="// 02" eyebrow="Toolkit" title="Security, frontend, and AI toolkit." description="Weighted toward cybersecurity, with strong frontend implementation and practical AI where it improves detection, automation, or product experience." />
         <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
           {skills.map((group, i) => {
             const Icon = icons[i];
             return (
               <motion.div key={group.category} initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-60px" }} transition={{ duration: 0.55, delay: i * 0.08, ease: [0.22, 1, 0.36, 1] }} className="panel relative overflow-hidden p-7">
-                <div aria-hidden className="absolute -right-16 -top-16 h-40 w-40 rounded-full blur-3xl" style={{ background: "oklch(0.58 0.20 20 / 0.18)" }} />
+                <div aria-hidden className="absolute -right-16 -top-16 h-40 w-40 rounded-full blur-3xl" style={{ background: "oklch(0.72 0.14 195 / 0.16)" }} />
                 <div className="relative flex items-center gap-3">
                   <span className="flex h-10 w-10 items-center justify-center rounded-lg border border-border bg-accent/60 text-primary">
                     <Icon className="h-5 w-5" />

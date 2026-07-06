@@ -7,10 +7,10 @@ export function Experience() {
   return (
     <section id="experience" className="relative py-24 md:py-32">
       <div className="mx-auto max-w-7xl px-5 md:px-8">
-        <SectionHeader number="// 04" eyebrow="Field work" title="Where I've been on the wire." />
+        <SectionHeader number="// 04" eyebrow="Field work" title="Security operations experience." />
         {experience.map((e, i) => (
           <motion.div key={e.company} initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-80px" }} transition={{ duration: 0.6, delay: i * 0.05, ease: [0.22, 1, 0.36, 1] }} className="panel relative overflow-hidden p-7 md:p-10">
-            <div aria-hidden className="absolute -right-32 -top-32 h-80 w-80 rounded-full blur-3xl" style={{ background: "oklch(0.58 0.20 20 / 0.12)" }} />
+            <div aria-hidden className="absolute -right-32 -top-32 h-80 w-80 rounded-full blur-3xl" style={{ background: "oklch(0.72 0.14 195 / 0.12)" }} />
             <div className="relative flex flex-col gap-8 lg:flex-row lg:items-start">
               <div className="lg:w-64 lg:flex-shrink-0">
                 <div className="flex items-center gap-3">

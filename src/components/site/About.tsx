@@ -7,12 +7,12 @@ export function About() {
   return (
     <section id="about" className="relative py-24 md:py-32">
       <div className="mx-auto max-w-7xl px-5 md:px-8">
-        <SectionHeader number="// 01" eyebrow="Profile" title="Security operator with an ML instinct." />
+        <SectionHeader number="// 01" eyebrow="Profile" title="Cybersecurity focus, frontend range." />
         <div className="grid grid-cols-1 gap-6 lg:grid-cols-12">
           <motion.div initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-80px" }} transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }} className="panel p-7 md:p-9 lg:col-span-7">
             <p className="text-lg leading-relaxed text-foreground/90">{profile.longBio}</p>
             <div className="mt-6 flex flex-wrap gap-2">
-              {["Wazuh", "Nmap", "Wireshark", "Burp Suite", "Autopsy", "Random Forest", "Isolation Forest", "React"].map((t) => (
+              {["Wazuh", "Nmap", "Wireshark", "Burp Suite", "React", "TypeScript", "Dashboard UI", "Random Forest", "Local LLMs"].map((t) => (
                 <span key={t} className="rounded-full border border-border bg-accent/60 px-3 py-1 font-mono text-[11px] text-muted-foreground">{t}</span>
               ))}
             </div>

@@ -7,7 +7,7 @@ export function Footer() {
       <div className="mx-auto flex max-w-7xl flex-col gap-6 px-5 py-10 md:flex-row md:items-center md:justify-between md:px-8">
         <div>
           <div className="font-mono text-[10px] uppercase tracking-[0.2em] text-primary">// Mohammad Abdullah</div>
-          <p className="mt-2 text-sm text-muted-foreground">Cybersecurity Analyst · Built and designed by hand · © {new Date().getFullYear()}</p>
+          <p className="mt-2 text-sm text-muted-foreground">© {new Date().getFullYear()} Mohammad Abdullah.</p>
         </div>
         <div className="flex items-center gap-3">
           <a href={profile.github} target="_blank" rel="noreferrer" aria-label="GitHub" className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-border bg-surface text-foreground transition-colors hover:border-primary hover:text-primary"><Github className="h-4 w-4" /></a>
