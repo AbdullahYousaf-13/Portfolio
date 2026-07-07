@@ -18,7 +18,7 @@ export function Contact() {
       icon: Mail,
       label: "Email",
       value: profile.email,
-      href: `mailto:${profile.email}`,
+      href: `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(profile.email)}`,
       copy: profile.email,
     },
     {
