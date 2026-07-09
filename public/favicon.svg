@@ -1,34 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <defs>
-    <linearGradient id="render-teal" x1="13" y1="49" x2="35" y2="27" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#60f5c8" />
-      <stop offset="1" stop-color="#25c7ff" />
-    </linearGradient>
-    <linearGradient
-      id="render-violet"
-      x1="27"
-      y1="28"
-      x2="50"
-      y2="13"
-      gradientUnits="userSpaceOnUse"
-    >
-      <stop offset="0" stop-color="#4aa8ff" />
-      <stop offset="1" stop-color="#a855f7" />
-    </linearGradient>
-    <linearGradient
-      id="render-amber"
-      x1="31"
-      y1="34"
-      x2="50"
-      y2="21"
-      gradientUnits="userSpaceOnUse"
-    >
-      <stop offset="0" stop-color="#a855f7" />
-      <stop offset="1" stop-color="#ffb84d" />
-    </linearGradient>
-  </defs>
-  <rect width="64" height="64" rx="14" fill="#091017" />
-  <path d="M15 15h12v34H15z" fill="url(#render-teal)" />
-  <path d="M27 15h22L27 31z" fill="url(#render-violet)" />
-  <path d="M27 31h22L27 49z" fill="url(#render-amber)" />
+  <path
+    d="M15 49V28.5h10.5c2.9 0 5.3-2.4 5.3-5.3 0-7.2 5.8-13 13-13S57 16 57 23.2s-5.8 13-13 13H36c-3.9 0-7 3.1-7 7V49H15Z"
+    fill="#0a0a0a"
+  />
 </svg>
