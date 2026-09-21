@@ -105,8 +105,7 @@ export function Contact() {
 
         <div className="mt-10 flex flex-wrap items-center justify-between gap-4 border-t border-border pt-8">
           <p className="max-w-md text-sm text-muted-foreground">
-            Based in {profile.location}. Open to Cybersecurity Analyst and Frontend Developer roles
-            — full-time and internship.
+            Based in {profile.location}. Open to AI/ML Engineer roles — full-time and internship.
           </p>
           <a
             href={profile.resumeUrl}

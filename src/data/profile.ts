@@ -1,3 +1,5 @@
+import hvgrCover from "@/assets/project-hvgr-repo.png";
+import jarvisCover from "@/assets/project-jarvis-repo.png";
 import cybersentinelCover from "@/assets/project-cybersentinel-repo.png";
 import nimbuswatchCover from "@/assets/project-nimbuswatch-repo.png";
 import passwordCrackerCover from "@/assets/project-password-cracker-repo.png";
@@ -6,25 +8,29 @@ import chatbotCover from "@/assets/project-chatbot-repo.png";
 
 export const profile = {
   name: "Mohammad Abdullah",
-  title: "Cybersecurity Analyst · Frontend Developer",
+  title: "AI/ML Engineer",
   location: "Islamabad, Pakistan",
   email: "abdullahyousaf132@gmail.com",
   phone: "+92 342 8785780",
   github: "https://github.com/AbdullahYousaf-13",
   linkedin: "https://linkedin.com/in/abdullahyousaf13",
   resumeUrl: "/Mohammad_Abdullah.pdf",
-  eyebrow: "Cybersecurity · Frontend · AI",
+  eyebrow: "AI · Security · Frontend",
   summary:
-    "Computer Science graduate focused on cybersecurity, frontend product development, and practical AI. My work combines SOC-style monitoring, vulnerability assessment, and detection workflows with responsive React interfaces and FastAPI-backed systems. During my cybersecurity internship, I handled SIEM alerts, log analysis, and remediation reporting, while my personal projects extend that experience into security dashboards, cloud-based detection systems, and analyst-focused tooling. Across both environments, I turn alerts, telemetry, and technical data into products that are easier to understand, faster to act on, and more useful for real teams. I am especially interested in roles where I can contribute across security operations, frontend execution, and practical automation that improves visibility and decision-making.",
+    "AI/ML-focused Computer Science graduate with hands-on experience building anomaly-detection models, evaluating classifiers, and deploying local LLM-powered applications. My work combines hybrid vector + graph RAG systems, intrusion-detection models, and local LLM tooling with a security background in SOC-style monitoring, vulnerability assessment, and detection workflows. During my cybersecurity internship, I handled SIEM alerts, log analysis, and remediation reporting, while my personal projects extend that experience into AI-driven detection systems, knowledge-graph RAG pipelines, and analyst-focused tooling. Across both environments, I turn alerts, telemetry, and technical data into products that are easier to understand, faster to act on, and more useful for real teams. I am especially interested in roles where I can contribute across applied AI/ML, security operations, and practical automation that improves visibility and decision-making.",
   longBio:
-    "My strongest lane is cybersecurity: alert triage, vulnerability assessment, log analysis, and network investigation built around tools like Wazuh, Nmap, Burp Suite, Wireshark, and Autopsy. During my internship at Techaccess Pakistan, I worked on daily SIEM alert handling, network defence monitoring, and structured remediation reporting across client systems. Alongside that, I build frontend-heavy products in React, JavaScript, TypeScript, CSS, and dashboard UI systems, with a focus on interfaces that make dense technical workflows easier to understand and act on. AI is the third layer in my work: practical machine-learning and local LLM integrations used where they improve detection quality, automation, or analyst experience rather than being added as filler.",
+    "My strongest lane is applied AI/ML: anomaly-detection models, hybrid vector + graph RAG systems, and local LLM integrations, using tools like Neo4j, LangChain, Scikit-learn, Google Gemini, and Ollama. I've built systems that turn raw corpora into knowledge graphs, evaluate classifiers for real-time security telemetry, and run fully offline conversational AI. Security is the second layer of my work: alert triage, vulnerability assessment, log analysis, and network investigation built around tools like Wazuh, Nmap, Burp Suite, Wireshark, and Autopsy. During my internship at Techaccess Pakistan, I worked on daily SIEM alert handling, network defence monitoring, and structured remediation reporting across client systems. Alongside that, I build frontend-heavy products in React, JavaScript, TypeScript, CSS, and dashboard UI systems, with a focus on interfaces that make dense technical workflows easier to understand and act on.",
   quickFacts: [
     { label: "Location", value: "Islamabad, PK" },
     { label: "Degree", value: "BS Computer Science" },
     { label: "CGPA", value: "3.4 / 4.0" },
-    { label: "Open to", value: "Cybersecurity Analyst / Frontend Developer roles" },
+    { label: "Open to", value: "AI/ML Engineer roles" },
   ],
   learningRepos: [
+    {
+      name: "Google-Cybersecurity",
+      url: "https://github.com/AbdullahYousaf-13/Google-Cybersecurity",
+    },
     {
       name: "CEH-Practical-Guide",
       url: "https://github.com/AbdullahYousaf-13/CEH-Practical-Guide",
@@ -33,14 +39,37 @@ export const profile = {
       name: "Cybersecurity-Cheat-Sheet",
       url: "https://github.com/AbdullahYousaf-13/Cybersecurity-Cheat-Sheet",
     },
-    {
-      name: "Google-Cybersecurity",
-      url: "https://github.com/AbdullahYousaf-13/Google-Cybersecurity",
-    },
   ],
 };
 
 export const skills = [
+  {
+    category: "Applied AI",
+    items: [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Machine Learning",
+      "Scikit-learn",
+      "Isolation Forest",
+      "Random Forest",
+      "Local LLMs",
+      "LangChain",
+      "Retrieval-Augmented Generation (RAG)",
+      "Knowledge Graphs",
+      "Neo4j",
+      "Cypher",
+      "Google Gemini API",
+      "Ollama",
+      "Prompt Engineering",
+      "PyTorch",
+      "TensorFlow",
+      "Hugging Face",
+      "Data Preprocessing",
+      "Model Training & Evaluation",
+      "Feature Engineering",
+    ],
+  },
   {
     category: "Cybersecurity",
     items: [
@@ -69,9 +98,13 @@ export const skills = [
     items: [
       "React.js",
       "JavaScript",
-      "TypeScript",
       "CSS",
       "HTML",
+      "Node.js",
+      "FastAPI",
+      "MongoDB",
+      "MySQL",
+      "REST APIs",
       "Responsive Design",
       "Dashboard UI",
       "Highcharts",
@@ -81,24 +114,44 @@ export const skills = [
       "GitHub",
       "Render",
       "Postman",
-    ],
-  },
-  {
-    category: "Applied AI",
-    items: [
-      "Machine Learning",
-      "Scikit-learn",
-      "Isolation Forest",
-      "Random Forest",
-      "Local LLMs",
-      "Data Preprocessing",
-      "Model Training & Evaluation",
-      "Feature Engineering",
+      "Docker",
     ],
   },
 ];
 
 export const projects = [
+  {
+    id: "hvgr",
+    name: "Hybrid-Vector-Graph-RAG",
+    tagline: "Hybrid Vector + Graph RAG system on Neo4j",
+    year: "2026",
+    role: "Independent Project · Knowledge Graphs / RAG",
+    cover: hvgrCover,
+    stack: ["Neo4j", "LangChain", "Google Gemini", "Python", "Cypher"],
+    highlights: [
+      "Built a hybrid Vector + Graph RAG pipeline on Neo4j, using Gemini embeddings and LLM-driven extraction to turn a 7-book corpus into a knowledge graph of 1,800+ entities and 130+ relationship types.",
+      "Engineered source-grounded verification and a hybrid answer-synthesis layer combining vector and graph retrieval, designed to generalize to any text corpus.",
+      "Modeled entities, chunks, and 130+ relationship types as a Neo4j graph schema, enabling multi-hop traversal alongside vector similarity search in a single query path.",
+    ],
+    links: [
+      { label: "GitHub", url: "https://github.com/AbdullahYousaf-13/Hybrid-Vector-Graph-Rag" },
+    ],
+  },
+  {
+    id: "jarvis",
+    name: "JARVIS",
+    tagline: "Local, offline AI assistant with an MCP-ready CLI",
+    year: "2026",
+    role: "Independent Project · Local LLM Tooling",
+    cover: jarvisCover,
+    stack: ["Python", "Typer", "Ollama", "Local LLMs", "YAML/JSON", "uv/uvx", "MCP"],
+    highlights: [
+      "Built a local AI assistant with a Python CLI (Typer) and Ollama-backed local LLM execution for fully offline, private conversational AI.",
+      "Designed a modular YAML/JSON-configured, MCP-ready architecture to support pluggable tools and future agent integrations.",
+      "Packaged the CLI for uv/uvx-based installs, keeping setup and dependency management lightweight for a fully local tool.",
+    ],
+    links: [{ label: "GitHub", url: "https://github.com/AbdullahYousaf-13/JARVIS" }],
+  },
   {
     id: "cybersentinel",
     name: "CyberSentinel",
@@ -155,6 +208,21 @@ export const projects = [
     links: [{ label: "GitHub", url: "https://github.com/AbdullahYousaf-13/NimbusWatch" }],
   },
   {
+    id: "chatbot",
+    name: "Local Ollama ChatBot",
+    tagline: "On-device conversational AI over a local LLM",
+    year: "2025",
+    role: "Full-stack",
+    cover: chatbotCover,
+    stack: ["Ollama", "smollm:1.7b", "JavaScript", "Node.js", "HTML/CSS"],
+    highlights: [
+      "Built a responsive web chat interface talking to a local Ollama (smollm:1.7b) model.",
+      "Engineered the async frontend-to-backend API flow for smooth on-device responses.",
+      "Ran inference fully on-device with no external API calls, keeping conversations private and available offline.",
+    ],
+    links: [{ label: "GitHub", url: "https://github.com/AbdullahYousaf-13/ChatBot" }],
+  },
+  {
     id: "password-cracker",
     name: "Password Cracker",
     tagline: "Password auditing tool with brute-force + dictionary attacks",
@@ -184,23 +252,19 @@ export const projects = [
     ],
     links: [{ label: "GitHub", url: "https://github.com/AbdullahYousaf-13/Fitness-Freak" }],
   },
-  {
-    id: "chatbot",
-    name: "Local Ollama ChatBot",
-    tagline: "On-device conversational AI over a local LLM",
-    year: "2025",
-    role: "Full-stack",
-    cover: chatbotCover,
-    stack: ["Ollama", "smollm:1.7b", "JavaScript", "Node.js", "HTML/CSS"],
-    highlights: [
-      "Built a responsive web chat interface talking to a local Ollama (smollm:1.7b) model.",
-      "Engineered the async frontend-to-backend API flow for smooth on-device responses.",
-    ],
-    links: [{ label: "GitHub", url: "https://github.com/AbdullahYousaf-13/ChatBot" }],
-  },
 ];
 
 export const experience = [
+  {
+    role: "AI/ML Intern",
+    company: "Zaytrics",
+    period: "08/2026 – Present",
+    location: "Islamabad, PK",
+    bullets: [
+      "Contributing to AI/ML projects using Neo4j, Cypher, and LLM-driven knowledge graph construction, applying hands-on RAG and graph-database techniques in a team environment.",
+    ],
+    metrics: [],
+  },
   {
     role: "Cybersecurity Intern",
     company: "Techaccess Pakistan",
@@ -228,6 +292,7 @@ export const education = {
   location: "Islamabad, Pakistan",
   cgpa: "3.4 / 4.0",
   coursework: [
+    "Introduction to Programming",
     "Information Security & Forensics",
     "Computer Forensics",
     "Cybersecurity",
@@ -243,6 +308,8 @@ export const education = {
 };
 
 export const credentials = [
+  { name: "Neo4j Fundamentals", issuer: "Neo4j GraphAcademy", year: "2026" },
+  { name: "Building Knowledge Graphs with LLMs", issuer: "Neo4j GraphAcademy", year: "2026" },
   { name: "Google Cybersecurity", issuer: "Coursera", year: "2026" },
   { name: "SOC Foundation Training", issuer: "Microsoft", year: "2025" },
   {

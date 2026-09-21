@@ -11,7 +11,7 @@ export function Projects() {
           number="// 03"
           eyebrow="Selected work"
           title="Projects"
-          description="Five builds from my GitHub: cybersecurity systems, frontend-heavy products, cloud ML, security tooling, and a local LLM chatbot."
+          description="Seven builds from my GitHub: RAG and local-LLM systems, a hybrid AI intrusion detection platform, cloud-based threat detection, security tooling, and frontend-heavy products."
         />
         <div className="flex flex-col gap-6">
           {projects.map((p, i) => {

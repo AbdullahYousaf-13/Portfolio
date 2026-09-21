@@ -3,7 +3,7 @@ import { Shield, Code2, Brain } from "lucide-react";
 import { skills } from "@/data/profile";
 import { SectionHeader } from "./SectionHeader";
 
-const icons = [Shield, Code2, Brain];
+const icons = [Brain, Shield, Code2];
 
 export function Skills() {
   return (
@@ -12,8 +12,8 @@ export function Skills() {
         <SectionHeader
           number="// 02"
           eyebrow="Toolkit"
-          title="Security, frontend, and AI toolkit."
-          description="Weighted toward cybersecurity, with strong frontend implementation and practical AI where it improves detection, automation, or product experience."
+          title="AI, security, and frontend toolkit."
+          description="Weighted toward applied AI/ML, with a strong security background and frontend implementation to turn models and telemetry into usable products."
         />
         <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
           {skills.map((group, i) => {

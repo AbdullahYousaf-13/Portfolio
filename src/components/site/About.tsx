@@ -10,7 +10,7 @@ export function About() {
         <SectionHeader
           number="// 01"
           eyebrow="Profile"
-          title="Cybersecurity focus, frontend range."
+          title="AI/ML focus, security-grounded."
         />
         <div className="grid grid-cols-1 gap-6 lg:grid-cols-12">
           <motion.div
@@ -23,15 +23,18 @@ export function About() {
             <p className="text-lg leading-relaxed text-foreground/90">{profile.longBio}</p>
             <div className="mt-6 flex flex-wrap gap-2">
               {[
+                "Neo4j",
+                "LangChain",
+                "RAG",
+                "Local LLMs",
+                "Random Forest",
                 "Wazuh",
                 "Nmap",
                 "Wireshark",
                 "Burp Suite",
-                "React",
-                "TypeScript",
+                "React.js",
+                "FastAPI",
                 "Dashboard UI",
-                "Random Forest",
-                "Local LLMs",
               ].map((t) => (
                 <span
                   key={t}

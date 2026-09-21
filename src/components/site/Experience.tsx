@@ -10,7 +10,7 @@ export function Experience() {
         <SectionHeader
           number="// 04"
           eyebrow="Field work"
-          title="Security operations experience."
+          title="AI/ML and security operations experience."
         />
         {experience.map((e, i) => (
           <motion.div

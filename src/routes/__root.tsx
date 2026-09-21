@@ -68,7 +68,7 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
 }
 
 const description =
-  "Mohammad Abdullah — cybersecurity analyst and frontend developer building security dashboards, React products, and practical AI/ML workflows.";
+  "Mohammad Abdullah — AI/ML engineer building RAG systems, intrusion-detection models, and local LLM tools, with a security operations background and frontend product experience.";
 
 export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
   head: () => ({
